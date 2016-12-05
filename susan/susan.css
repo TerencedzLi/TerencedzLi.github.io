@@ -1,0 +1,170 @@
+html body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.landing {
+  color: #454545;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 160px 0;
+}
+
+.landing-name {
+  font-size: 124px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.landing-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.landing-divider {
+  border: solid 1px #454545;
+  width: 69px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.landing-description {
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  margin-bottom: 60px;
+  padding: 0 10px;
+  font-weight: lighter;
+  max-width: 500px;
+}
+
+.landing-links__container {
+  display: flex;
+}
+
+.landing-links__container a,
+.landing-links__container a:visited {
+  color: #454545;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+
+.landing-links__container a:hover,
+.landing-links__container a:active {
+  color: #f58c86;
+  cursor: pointer;
+}
+
+.projects-container {
+  display: flex;
+  flex-flow:column;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+  height: 400px;
+}
+
+.project-name {
+  font-size: 30px;
+  margin-top: 110px;
+  text-transform: uppercase;
+}
+
+.project-secondary {
+  font-size: 18px;
+  font-weight:lighter;
+  margin-bottom: 40px;
+}
+
+.project-divider {
+  border: solid 1px #ffffff;
+  width: 69px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+
+.project-container button {
+  border: solid 2px #ffffff;
+  background-color: Transparent;
+  border-radius: 5px;
+  box-shadow: none;
+
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  outline: none;
+
+  height: 40px;
+  width: 140px;
+}
+
+.project-container button:hover {
+  background-color: #fff;
+}
+
+.project-1 {
+  background-color: #f58c86;
+}
+
+.project-1 button:hover {
+  background-color: #fff;
+  color: #f58c86;
+}
+
+.project-2 {
+  background-color: #9fd6bd;
+}
+
+.project-2 button:hover {
+  background-color: #fff;
+  color: #9fd6bd;
+}
+
+.project-3 {
+  background-color: #f8c294;
+}
+
+.project-3 button:hover {
+  background-color: #fff;
+  color: #f8c294;
+}
+
+.project-4 {
+  background-color: #f2e4a0;
+}
+
+.project-4 button:hover {
+  background-color: #fff;
+  color: #f2e4a0;
+}
+
+.project-5 {
+  background-color: #73cdee;
+}
+
+.project-5 button:hover {
+  background-color: #fff;
+  color: #73cdee;
+}
